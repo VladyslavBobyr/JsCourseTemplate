@@ -1,0 +1,39 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checker {
+    display: flex;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(98,242,239,0.22);
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.white {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+.letters {
+    width: 100px;
+    height: 700px;
+
+}
+.letter-container {
+    height: 100px;
+    text-align: right;
+}
